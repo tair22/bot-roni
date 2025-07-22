@@ -1,0 +1,17 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+pytelegrambotapi = "*"
+requests = "*"
+pillow = "*"
+tensorflow = "==2.12.0"
+numpy = "*"
+keras = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.11"
