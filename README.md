@@ -1,6 +1,7 @@
 ## 🤖 Собачья лавка (Telegram Bot)  
 
-![](https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExOGhiZDd4bmIyYmtyaWpsb2JhbDhmaTJibGk2NGRiM3o2Zzc3ZWd2ZCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/z3JvOJDvyKCPzIsGpm/giphy.gif)
+![gif](https://github.com/user-attachments/assets/8487cec4-682d-4564-ad2b-8ba7d77ee123)
+
 
 [![Python](https://img.shields.io/badge/Python-3.10%2B-blue)](https://www.python.org/)  
 [![Telegram](https://img.shields.io/badge/Telegram-Bot_API-blue)](https://core.telegram.org/bots/api)  
@@ -9,7 +10,7 @@
 Бот умеет отвечать на команды через /*название команды*, может выдавать картинки через api на специальные текстовые команды(например если вы напишите "уткены" или нажмете на соответсвующую кнопку
 то бот выдаст картинку утки🦆🦆🦆
 Бот также использует модель детектирования и если вы ему скинете фото своей еды он скажет полезная она или нет🥤🥗🍔🍗🍟🥓
-<img width="1233" height="938" alt="image" src="https://github.com/user-attachments/assets/8f0dc43d-667e-498f-a896-8e462601df42" />
+
 
 ## 🔥 Возможности:
 - /start,/hello выдают список команд
