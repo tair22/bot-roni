@@ -1,6 +1,6 @@
 ## 🤖 Собачья лавка (Telegram Bot)  
 
-![Alt Text](https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExOGhiZDd4bmIyYmtyaWpsb2JhbDhmaTJibGk2NGRiM3o2Zzc3ZWd2ZCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/z3JvOJDvyKCPzIsGpm/giphy.gif)
+<img src="https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExOGhiZDd4bmIyYmtyaWpsb2JhbDhmaTJibGk2NGRiM3o2Zzc3ZWd2ZCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/z3JvOJDvyKCPzIsGpm/giphy.gif" width="1600" height="1600" />
 
 [![Python](https://img.shields.io/badge/Python-3.10%2B-blue)](https://www.python.org/)  
 [![Telegram](https://img.shields.io/badge/Telegram-Bot_API-blue)](https://core.telegram.org/bots/api)  
