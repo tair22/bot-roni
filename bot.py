@@ -2,11 +2,12 @@ import telebot
 import os
 import random
 import requests
+from config import token
 from telebot import types 
 from bot_logic import gen_pass, gen_emodji, get_duck_image_url, timers, flip_coin, jokes, get_dog_image_url  # Импортируем функции из bot_logic
 from model import get_class
 # Замени 'TOKEN' на токен твоего бота
-bot = telebot.TeleBot("Your Token")
+bot = telebot.TeleBot(token)
 
 @bot.message_handler(commands=['start', 'hello'])
 def send_welcome(message):
@@ -79,7 +80,9 @@ def handle_poll(poll):
 # Обработчик команды /picture
 @bot.message_handler(commands=['dog'])
 def send_dog(message):
-    with open('lavar/lava.jpg', 'rb') as f:  
+    file_list = os.listdir("lavar")
+    img_name = random.choice(file_list)
+    with open(f'lavar/{img_name}', 'rb') as f:  
         bot.send_photo(message.chat.id, f) 
 
 
@@ -249,7 +252,6 @@ def create_poll7(message):
 def handle_poll(poll):
     pass   
 
-
 @bot.message_handler(content_types=['text'])
 def func(message):
     if(message.text == "уткены"):
@@ -259,6 +261,9 @@ def func(message):
         image_url = get_dog_image_url()
         bot.reply_to(message, image_url)  
 
+@bot.message_handler(func=lambda message: True)
+def echo_message(message):
+    bot.reply_to(message, message.text)
 
 @bot.message_handler(content_types=['photo'])
 def message_photo(message):
@@ -279,10 +284,6 @@ def message_photo(message):
     else:
          return bot.send_message(message.chat.id, "Ошибка")
 
-    
-#@bot.message_handler(func=lambda message: True)
-#def echo_message(message):
-    #bot.reply_to(message, message.text)
 
 
 # Запускаем бота
